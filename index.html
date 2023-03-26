@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+        <link rel="stylesheet" href="styles\styles.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="images.html">Images</a>
+                <a href="advanced.html">Advanced Search</a>
+                <img id="apps-icon" src="images\nine-dots.png" alt="Apps Icon">
+                <img id="user-photo" src="images\user-photo.PNG" alt="User photo">
+            </nav>
+        </header>
+        <main>
+            <section class="main-body">
+                <!-- Google Center Logo -->
+                <div class="logo-container">
+                    <img id="main-logo" src="images\google-logo.png" alt="Google Main Logo">
+                </div>
+                <!-- Search bar with icons -->
+                <div class="search-bar">
+                    <form id="myForm" action="https://www.google.com/search">
+                        <div class="upper-search">
+                            <img class="search-icon" src="images\search-icon.png" alt="Search Icon">
+                            <input type="text" name="q" aria-label="Search Input">
+                            <img class="right-icons" id="voice-icon" src="images\google-voice.png" alt="Google Voice Icon">
+                            <img class="right-icons" id="camera-icon" src="images\image-search.png" alt="Image Search Icon">
+                        </div>
+                        <!-- Search buttons -->
+                        <div class="lower-search">
+                            <input type="submit" name="GoogleSearch" value="Google Search"
+                                aria-label="Google Search Button">
+                            <input type="submit" name="btnI" value="I'm Feeling Lucky"
+                                aria-label="I'm Feeling Lucky Button">
+                        </div>
+                    </form>
+                </div>    
+            </section>
+        </main>
+        <footer>
+            <p id="sign">Google Clone. By Fernando Chazarreta &copy;</p>
+        </footer>
+    </body>
+</html>

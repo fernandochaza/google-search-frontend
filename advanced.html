@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+        <link rel="stylesheet" href="styles\advanced.css">
+
+    </head>
+    <body>
+        <header>
+            <!-- Google Logo -->
+            <div class="logo-container">
+                <img id="main-logo" src="images\google-logo.png" alt="Google Main Logo">
+            </div>
+            <nav>
+
+                <a href="index.html">Google Search</a>
+                <a href="images.html">Images</a>
+                <img id="apps-icon" src="images\nine-dots.png" alt="Apps Icon">
+                <img id="user-photo" src="images\user-photo.PNG" alt="User photo">
+            </nav>
+        </header>
+        <main>
+            <div class="title-container">
+                <label id="advanced-title">Advanced Search</label>
+            </div>
+            <div class="separator"></div>
+            <section class="main-body">
+
+                <!-- Search bar with icons -->
+                <form action="https://www.google.com/search">
+                    <div class="search-form">
+                        <div>
+                            <p id="search-form-title">Find pages with...</p>
+                        </div>
+                        <div class="search inputs">
+                            <div id="advanced-options">
+                                <div class="label-container">
+                                    <label id="labels">all these words:</label>
+                                </div>
+                                <input id="user-input" type="text" name="as_q">
+                            </div>
+                            <div id="advanced-options">
+                                <div class="label-container">
+                                    <label id="labels"">this exact word or phrase:</label>
+                                </div>
+                                <input id="user-input" type="text" name="as_epq">
+                            </div>
+                            <div id="advanced-options">
+                                <div class="label-container">
+                                    <label id="labels">any of these words:</label>
+                                </div>
+                                <input id="user-input" type="text" name="as_oq">
+                                </div>
+                            <div id="advanced-options">
+                                <div class="label-container">
+                                    <label id="labels">none of these words:</label>
+                                </div>
+                                <input id="user-input" type="text" name="as_eq">
+                                </div>
+                            </div>
+                            <div class="search-button-container">
+                                <input class="search-button" type="submit" value="Advanced Search">
+                            </div>
+                        </div>
+                        <div class="bottom-separator"></div>
+                </form>
+    
+            </section>
+        </main>
+        <footer>
+            <p id="sign">Google Clone. By Fernando Chazarreta &copy;</p>
+        </footer>
+    
+    </body>
+</html>
